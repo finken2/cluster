@@ -14,7 +14,9 @@ variable "default_pool_size" {
   default = "3"
 }
 
-variable "private_vlan_id" {}
+variable "private_vlan_id" {
+   default = "reallyreallylongtextthatdoesn'thaveanaturalbreakkindoflikeansshekybutisn'treallyonebecauseit'sjustfaketextsowe'refakingitandseewhathappensanyway"
+}
 
 variable "public_vlan_id" {}
 
